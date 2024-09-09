@@ -1,0 +1,786 @@
+ //recent start
+ .recent {
+     padding: 35px 0;
+
+     .container {
+         .grid {
+             display: grid;
+             grid-template-columns: 2fr 1fr;
+             gap: 15px;
+
+             .left {
+                 h1 {
+                     padding-bottom: 15px;
+                     display: flex;
+                     align-items: center;
+                     font-size: 32px;
+                     font-weight: 600;
+                     line-height: 39px;
+
+                     .line {
+                         margin-left: 15px;
+                         border: 2px solid $primarycolor;
+                         height: 2px;
+                         width: 73%;
+                     }
+                 }
+
+                 .box {
+                     display: grid;
+                     grid-template-columns: 1.50fr 2fr;
+                     gap: 25px;
+                     padding-bottom: 15px;
+                     align-items: center;
+
+                     img {
+                         width: 100%;
+                         height: 250px;
+                         object-fit: cover;
+                     }
+
+                     .img-content {
+                         padding-top: 10px;
+                         color: $primarycolor;
+
+                         .cont-title {
+                             padding-top: 10px;
+                             font-size: 24px;
+                             font-weight: 600;
+                             line-height: 32px;
+
+                             &:hover {
+                                 color: $primarycolorhover;
+                                 text-decoration: underline;
+                             }
+                         }
+
+                         .cont-date {
+                             padding-bottom: 5px;
+                             color: $secondarycolor;
+                             font-size: 16px;
+                             font-weight: 400;
+                             line-height: 27px;
+                         }
+
+                         .cont-detail {
+                             padding-top: 10px;
+                             color: $textcolor;
+                             font-size: 18px;
+                             font-weight: 400;
+                             line-height: 31px;
+
+                         }
+                     }
+                 }
+
+                 .banner {
+                     display: flex;
+                     justify-content: center;
+                     padding: 15px 0;
+                     margin-left: auto;
+                     margin-right: auto;
+
+                     img {
+                         width: 80%;
+                         height: 100%;
+                     }
+                 }
+
+                 //recent end
+
+                 //fashion start
+                 .fashion {
+                     h1 {
+                         padding-bottom: 15px;
+                         align-items: center;
+                         font-size: 32px;
+                         font-weight: 600;
+                         line-height: 39px;
+
+                         .line {
+                             margin-left: 15px;
+                             border: 2px solid $primarycolor;
+                             height: 2px;
+                             width: 105%;
+                         }
+                     }
+
+                     .grid {
+                         display: grid;
+                         grid-template-columns: 1fr 1fr;
+                         gap: 15px;
+
+                         .left {
+                             .box {
+                                 display: flex;
+                                 flex-direction: column;
+                                 gap: 25px;
+                                 padding-top: 25px;
+
+                                 img {
+                                     height: 270px;
+                                     object-fit: cover;
+                                 }
+
+                                 .img-content {
+                                     padding-top: 10px;
+                                     color: $primarycolor;
+
+                                     .cont-title {
+                                         padding-top: 10px;
+                                         font-size: 24px;
+                                         font-weight: 600;
+                                         line-height: 32px;
+
+                                         &:hover {
+                                             color: $primarycolorhover;
+                                             text-decoration: underline;
+                                         }
+                                     }
+
+                                     .cont-date {
+                                         padding-bottom: 5px;
+                                         color: $secondarycolor;
+                                         font-size: 16px;
+                                         font-weight: 400;
+                                         line-height: 27px;
+                                     }
+
+                                     .cont-detail {
+                                         padding-top: 10px;
+                                         color: $textcolor;
+                                         font-size: 18px;
+                                         font-weight: 400;
+                                         line-height: 31px;
+
+                                     }
+                                 }
+                             }
+
+                         }
+
+                         .right {
+                             .box {
+                                 display: flex;
+                                 flex-direction: column;
+                                 gap: 25px;
+                                 padding-top: 25px;
+
+                                 img {
+                                     height: 270px;
+                                     object-fit: cover;
+                                 }
+
+                                 .img-content {
+                                     padding-top: 10px;
+                                     color: $primarycolor;
+
+                                     .cont-title {
+                                         padding-top: 10px;
+                                         font-size: 24px;
+                                         font-weight: 600;
+                                         line-height: 32px;
+
+                                         &:hover {
+                                             color: $primarycolorhover;
+                                             text-decoration: underline;
+                                         }
+                                     }
+
+                                     .cont-date {
+                                         padding-bottom: 5px;
+                                         color: $secondarycolor;
+                                         font-size: 16px;
+                                         font-weight: 400;
+                                         line-height: 27px;
+                                     }
+
+                                     .cont-detail {
+                                         padding-top: 10px;
+                                         color: $textcolor;
+                                         font-size: 18px;
+                                         font-weight: 400;
+                                         line-height: 31px;
+
+                                     }
+                                 }
+                             }
+
+                         }
+                     }
+                 }
+
+                 //fashion end 
+             }
+
+             .right {
+
+                 //folow start
+                 .follow {
+                     h1 {
+                         padding-bottom: 15px;
+                         display: flex;
+                         align-items: center;
+                         font-size: 32px;
+                         font-weight: 600;
+                         line-height: 39px;
+
+                         .line {
+                             margin-left: 15px;
+                             border: 2px solid $primarycolor;
+                             height: 2px;
+                             width: 62%;
+                         }
+                     }
+
+                     .social {
+                         display: flex;
+                         flex-direction: column;
+                         gap: 15px;
+
+                         .social-1 {
+                             position: relative;
+                             display: flex;
+                             height: 35px;
+                             background-color: #1A6DD4;
+                             width: 350px;
+
+                             &:hover {
+                                 background-color: #1762beba;
+                             }
+
+                             i {
+                                 width: 10%;
+                                 height: auto;
+                                 font-size: larger;
+                                 display: inline;
+                                 align-content: center;
+                                 text-align: center;
+                                 color: $white;
+
+                             }
+
+                             h4 {
+                                 width: 100%;
+                                 display: flex;
+                                 color: $white;
+                                 align-items: center;
+                                 height: 35px;
+                                 font-size: 18px;
+                                 font-weight: 400;
+                                 line-height: 31px;
+                                 padding-left: 15px;
+
+                             }
+                         }
+
+                         .social-2 {
+                             position: relative;
+                             display: flex;
+                             height: 35px;
+                             background-color: #C13584;
+                             width: 350px;
+
+                             &:hover {
+                                 background-color: #C13584ba;
+                             }
+
+                             i {
+                                 width: 10%;
+                                 height: auto;
+                                 font-size: larger;
+                                 display: inline;
+                                 align-content: center;
+                                 text-align: center;
+                                 color: $white;
+
+                             }
+
+                             h4 {
+                                 width: 100%;
+                                 display: flex;
+                                 color: $white;
+                                 align-items: center;
+                                 height: 35px;
+                                 font-size: 18px;
+                                 font-weight: 400;
+                                 line-height: 31px;
+                                 padding-left: 15px;
+
+                             }
+                         }
+
+                         .social-3 {
+                             position: relative;
+                             display: flex;
+                             height: 35px;
+                             background-color: #2483CE;
+                             width: 350px;
+
+                             &:hover {
+                                 background-color: #2483CEba;
+                             }
+
+                             i {
+                                 width: 10%;
+                                 height: auto;
+                                 font-size: larger;
+                                 display: inline;
+                                 align-content: center;
+                                 text-align: center;
+                                 color: $white;
+
+                             }
+
+                             h4 {
+                                 width: 100%;
+                                 display: flex;
+                                 color: $white;
+                                 align-items: center;
+                                 height: 35px;
+                                 font-size: 18px;
+                                 font-weight: 400;
+                                 line-height: 31px;
+                                 padding-left: 15px;
+
+                             }
+                         }
+
+                         .social-4 {
+                             position: relative;
+                             display: flex;
+                             height: 35px;
+                             background-color: #00ADEF;
+                             width: 350px;
+
+                             &:hover {
+                                 background-color: #00ADEFba;
+                             }
+
+                             i {
+                                 width: 10%;
+                                 height: auto;
+                                 font-size: larger;
+                                 display: inline;
+                                 align-content: center;
+                                 text-align: center;
+                                 color: $white;
+
+                             }
+
+                             h4 {
+                                 width: 100%;
+                                 display: flex;
+                                 color: $white;
+                                 align-items: center;
+                                 height: 35px;
+                                 font-size: 18px;
+                                 font-weight: 400;
+                                 line-height: 31px;
+                                 padding-left: 15px;
+
+                             }
+                         }
+
+                         .social-5 {
+                             position: relative;
+                             display: flex;
+                             height: 35px;
+                             background-color: #E52200;
+                             width: 350px;
+
+                             &:hover {
+                                 background-color: #E52200ba;
+                             }
+
+                             i {
+                                 width: 10%;
+                                 height: auto;
+                                 font-size: larger;
+                                 display: inline;
+                                 align-content: center;
+                                 text-align: center;
+                                 color: $white;
+
+                             }
+
+                             h4 {
+                                 width: 100%;
+                                 display: flex;
+                                 color: $white;
+                                 align-items: center;
+                                 height: 35px;
+                                 font-size: 18px;
+                                 font-weight: 400;
+                                 line-height: 31px;
+                                 padding-left: 15px;
+
+                             }
+                         }
+
+                         .social-6 {
+                             position: relative;
+                             display: flex;
+                             height: 35px;
+                             background-color: #FF5247;
+                             width: 350px;
+
+                             &:hover {
+                                 background-color: #FF5247ba;
+                             }
+
+                             i {
+                                 width: 10%;
+                                 height: auto;
+                                 font-size: larger;
+                                 display: inline;
+                                 align-content: center;
+                                 text-align: center;
+                                 color: $white;
+
+                             }
+
+                             h4 {
+                                 width: 100%;
+                                 display: flex;
+                                 color: $white;
+                                 align-items: center;
+                                 height: 35px;
+                                 font-size: 18px;
+                                 font-weight: 400;
+                                 line-height: 31px;
+                                 padding-left: 15px;
+
+                             }
+                         }
+                     }
+
+                     .banner {
+                         position: relative;
+                         display: flex;
+                         justify-content: center;
+                         padding: 15px 0;
+                         margin-left: auto;
+                         margin-right: auto;
+                         width: 350px;
+                         height: 550px;
+                         overflow: hidden;
+                         padding: -15px;
+                         margin: 15px 0;
+                         align-items: center;
+                         transition: 0.5s;
+
+                         &:hover {
+                             img {
+                                 transform: scale(1.1);
+                             }
+
+                             .content {
+                                 transform: scale(1.5);
+                             }
+
+                             .gradient {
+                                 background-color: transparent;
+                             }
+
+                             .border {
+                                 display: block;
+                                 .line-top-left {width: 90%;}
+                                 .line-bottom-left {width: 90%;}
+                                 .line-top-right {height: 90%;}
+                                 .line-bottom-right {height: 90%;}
+                             }
+                         }
+
+                         .border {
+                             display: none;
+
+                             .line-top-left {
+                                 align-items: center;
+                                 border: 0.5px solid white;
+                                 width: 0;
+                                 opacity: 75%;
+                                 position: absolute;
+                                 top: 50px;
+                                 left: 5%;
+                                 transition: 0.8s;
+                             }
+
+                             .line-bottom-left {
+                                 align-items: center;
+                                 border: 0.5px solid white;
+                                 width: 0;
+                                 opacity: 75%;
+                                 position: absolute;
+                                 bottom: 50px;
+                                 left: 5%;
+                                 transition: 0.8s;
+                             }
+
+                             .line-top-right {
+                                 align-items: center;
+                                 border: 0.5px solid white;
+                                 height: 0;
+                                 opacity: 75%;
+                                 position: absolute;
+                                 bottom: 5%;
+                                 left: 10%;
+                                 transition: 0.8s;
+                             }
+
+                             .line-bottom-right {
+                                 align-items: center;
+                                 border: 0.5px solid white;
+                                 height: 0;
+                                 opacity: 75%;
+                                 position: absolute;
+                                 bottom: 5%;
+                                 right: 10%;
+                                 transition: 0.8s;
+                             }
+                         }
+
+                         .gradient {
+                             background: #ed32e499;
+                             position: absolute;
+                             left: 0;
+                             top: 0;
+                             height: 100%;
+                             width: 100%;
+                         }
+
+                         img {
+                             width: 100%;
+                             height: 100%;
+                             align-content: center;
+                             object-fit: cover;
+                             transform: scale(1.5);
+                             transition: 0.5s;
+                         }
+
+                         .content {
+                             position: absolute;
+                             left: 0;
+                             right: 0;
+                             width: 100%;
+                             text-align: center;
+                             transform: scale(1.5);
+                             transition: 0.5s;
+
+                             .img-title {
+                                 font-size: 18px;
+                                 font-weight: 600;
+                                 line-height: 31px;
+                                 color: $white;
+                             }
+
+                             .img-content {
+                                 font-size: 12px;
+                                 font-weight: 400;
+                                 line-height: 31px;
+                                 color: $white;
+                             }
+                         }
+                     }
+                 }
+
+                 //follow end
+                 //popular start
+                 .popular {
+                     h1 {
+                         padding-bottom: 15px;
+                         display: flex;
+                         align-items: center;
+                         font-size: 32px;
+                         font-weight: 600;
+                         line-height: 39px;
+
+                         .line {
+                             margin-left: 15px;
+                             border: 2px solid $primarycolor;
+                             height: 2px;
+                             width: 50%;
+                         }
+                     }
+
+                     .box {
+                         display: grid;
+                         grid-template-columns: 1.25fr 2fr;
+                         gap: 25px;
+                         padding-bottom: 15px;
+                         padding-top: 15px;
+                         align-items: center;
+
+                         img {
+                             width: 100%;
+                             height: 100px;
+                             object-fit: cover;
+                         }
+
+                         .img-content {
+                             padding-top: 10px;
+                             color: $primarycolor;
+
+                             .cont-title {
+                                 padding-top: 10px;
+                                 font-size: 18px;
+                                 font-weight: 600;
+                                 line-height: 24px;
+
+                                 &:hover {
+                                     color: $primarycolorhover;
+                                     text-decoration: underline;
+                                 }
+                             }
+
+                             .cont-date {
+                                 padding-bottom: 5px;
+                                 color: $secondarycolor;
+                                 font-size: 16px;
+                                 font-weight: 400;
+                                 line-height: 27px;
+                             }
+                         }
+                     }
+                 }
+
+                 //popular end
+                 //catagories start
+                 .catagory {
+                     h1 {
+                         padding-bottom: 15px;
+                         display: flex;
+                         align-items: center;
+                         font-size: 32px;
+                         font-weight: 600;
+                         line-height: 39px;
+
+                         .line {
+                             margin-left: 15px;
+                             border: 2px solid $primarycolor;
+                             height: 2px;
+                             width: 58%;
+                         }
+                     }
+
+                     .box {
+                         margin-bottom: 15px;
+                         margin-top: 15px;
+                         text-align: center;
+                         position: relative;
+                         height: 100%;
+                         width: 100%;
+                         align-items: center;
+                         text-align: center;
+
+                         img {
+
+                             width: 100%;
+                             height: 100%;
+                             object-fit: fill;
+
+                         }
+
+                         .gradient {
+                             background: #0000006a;
+                             position: absolute;
+                             left: 0;
+                             top: 0;
+                             width: 100%;
+                             height: 100%;
+                         }
+
+                         .img-content {
+                             padding-top: 10px;
+                             color: $primarycolor;
+                             position: absolute;
+                             left: 42%;
+                             top: 115px;
+
+                             .cont-title {
+                                 font-size: 27px;
+                                 font-weight: 600;
+                                 line-height: 38px;
+                                 color: $white;
+                             }
+
+                             .cont-date {
+                                 padding-bottom: 5px;
+                                 color: $white;
+                                 font-size: 16px;
+                                 font-weight: 400;
+                                 line-height: 27px;
+
+                                 &:hover {
+                                     text-decoration: underline;
+                                 }
+                             }
+                         }
+                     }
+                 }
+
+                 //catagories end
+                 //update start
+                 .update {
+                     .box {
+                         margin-bottom: 15px;
+                         margin-top: 15px;
+                         height: 100%;
+                         width: 100%;
+                         background-color: $secondarycolorsoft;
+                         padding: 35px;
+
+                         .cont-title {
+                             font-size: 32px;
+                             font-weight: 600;
+                             line-height: 39px;
+                             color: $primarycolor;
+                             margin-top: 15px;
+                             margin-bottom: 15px;
+                         }
+
+                         .cont-date {
+                             padding-bottom: 5px;
+                             color: $secondarycolor;
+                             font-size: 18px;
+                             font-weight: 400;
+                             line-height: 31px;
+                         }
+
+                         input {
+                             background: #fff;
+                             color: $secondarycolorsoft;
+                             font-size: 16px;
+                             font-weight: 400;
+                             line-height: 27px;
+                             border: none;
+                             width: 100%;
+                             height: 55px;
+                             padding-left: 25px;
+                             align-items: center;
+                             margin-top: 15px;
+                             margin-bottom: 15px;
+
+                         }
+
+                         .subscribe {
+                             text-align: center;
+                             align-self: center;
+                             line-height: 55px;
+                             color: $white;
+                             background-color: $primarycolorhover;
+                             font-size: 16px;
+                             font-weight: 400;
+                             height: 55px;
+                         }
+
+                     }
+                 }
+
+                 //update end
+             }
+         }
+     }
+ }
+
+ //recent end

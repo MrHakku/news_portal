@@ -1,0 +1,418 @@
+.articles {
+    .container {
+        .row {
+            .col-lg-8 {
+                img {
+                    margin-bottom: 15px;
+                }
+
+                h6 {
+                    font-family: 400;
+                    font-size: 16px;
+                    line-height: 22px;
+                    color: $secondarycolor;
+                }
+
+                h2 {
+                    color: $primarycolor;
+                    font-weight: 500;
+                    font-size: 38px;
+                    line-height: 46px;
+
+                    &:hover {
+                        text-decoration: underline;
+                        color: $primarycolorhover;
+                    }
+                }
+
+                p {
+                    color: $textcolor;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 31px;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: $textcolor;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+
+                    &:hover {
+                        text-decoration: underline;
+                        transition: 4s;
+                        transition-timing-function: ease-in-out;
+                    }
+                }
+
+                .grid {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+
+                    .left {
+                        .box {
+                            img {
+                                margin-bottom: 15px;
+                            }
+
+                            h6 {
+                                font-family: 400;
+                                font-size: 16px;
+                                line-height: 22px;
+                                color: $secondarycolor;
+                            }
+
+                            h2 {
+                                color: $primarycolor;
+                                font-weight: 500;
+                                font-size: 26px;
+                                line-height: 46px;
+
+                                &:hover {
+                                    text-decoration: underline;
+                                    color: $primarycolorhover;
+                                }
+                            }
+
+                            p {
+                                color: $textcolor;
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 31px;
+                                span{
+                                    font-weight: 700;
+                                }
+                            }
+
+                            a {
+                                text-decoration: none;
+                                color: $textcolor;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 24px;
+
+                                &:hover {
+                                    text-decoration: underline;
+                                    transition: 4s;
+                                    transition-timing-function: ease-in-out;
+                                }
+                            }
+                        }
+                    }
+                    .right {
+                        .box {
+                            img {
+                                margin-bottom: 15px;
+                            }
+
+                            h6 {
+                                font-family: 400;
+                                font-size: 16px;
+                                line-height: 22px;
+                                color: $secondarycolor;
+                            }
+
+                            h2 {
+                                color: $primarycolor;
+                                font-weight: 500;
+                                font-size: 26px;
+                                line-height: 46px;
+
+                                &:hover {
+                                    text-decoration: underline;
+                                    color: $primarycolorhover;
+                                }
+                            }
+
+                            p {
+                                color: $textcolor;
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 31px;
+                            }
+
+                            a {
+                                text-decoration: none;
+                                color: $textcolor;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 24px;
+
+                                &:hover {
+                                    text-decoration: underline;
+                                    transition: 4s;
+                                    transition-timing-function: ease-in-out;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .col-lg-4 {
+                .follow {
+                    &:hover{
+                        h1{
+                            .line{
+                        border: 2px solid $primarycolor;
+                    }
+                }
+            }
+                    h1 {
+                        padding-bottom: 15px;
+                        display: flex;
+                        align-items: center;
+                        font-size: 30px;
+                        font-weight: 600;
+                        line-height: 39px;
+
+                        .line {
+                            margin-left: 15px;
+                            border: 2px solid $textcolor;
+                            height: 2px;
+                            width: 55%;
+                        }
+                    }
+
+                    .social {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+
+                        .social-1 {
+                            position: relative;
+                            display: flex;
+                            height: 35px;
+                            background-color: #1A6DD4;
+                            width: 350px;
+
+                            &:hover {
+                                background-color: #1762beba;
+                            }
+
+                            i {
+                                width: 10%;
+                                height: auto;
+                                font-size: larger;
+                                display: inline;
+                                align-content: center;
+                                text-align: center;
+                                color: $white;
+
+                            }
+
+                            h4 {
+                                width: 100%;
+                                display: flex;
+                                color: $white;
+                                align-items: center;
+                                height: 35px;
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 31px;
+                                padding-left: 15px;
+
+                            }
+                        }
+
+                        .social-2 {
+                            position: relative;
+                            display: flex;
+                            height: 35px;
+                            background-color: #C13584;
+                            width: 350px;
+
+                            &:hover {
+                                background-color: #C13584ba;
+                            }
+
+                            i {
+                                width: 10%;
+                                height: auto;
+                                font-size: larger;
+                                display: inline;
+                                align-content: center;
+                                text-align: center;
+                                color: $white;
+
+                            }
+
+                            h4 {
+                                width: 100%;
+                                display: flex;
+                                color: $white;
+                                align-items: center;
+                                height: 35px;
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 31px;
+                                padding-left: 15px;
+
+                            }
+                        }
+
+                        .social-3 {
+                            position: relative;
+                            display: flex;
+                            height: 35px;
+                            background-color: #2483CE;
+                            width: 350px;
+
+                            &:hover {
+                                background-color: #2483CEba;
+                            }
+
+                            i {
+                                width: 10%;
+                                height: auto;
+                                font-size: larger;
+                                display: inline;
+                                align-content: center;
+                                text-align: center;
+                                color: $white;
+
+                            }
+
+                            h4 {
+                                width: 100%;
+                                display: flex;
+                                color: $white;
+                                align-items: center;
+                                height: 35px;
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 31px;
+                                padding-left: 15px;
+
+                            }
+                        }
+
+                        .social-4 {
+                            position: relative;
+                            display: flex;
+                            height: 35px;
+                            background-color: #00ADEF;
+                            width: 350px;
+
+                            &:hover {
+                                background-color: #00ADEFba;
+                            }
+
+                            i {
+                                width: 10%;
+                                height: auto;
+                                font-size: larger;
+                                display: inline;
+                                align-content: center;
+                                text-align: center;
+                                color: $white;
+
+                            }
+
+                            h4 {
+                                width: 100%;
+                                display: flex;
+                                color: $white;
+                                align-items: center;
+                                height: 35px;
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 31px;
+                                padding-left: 15px;
+
+                            }
+                        }
+
+                        .social-5 {
+                            position: relative;
+                            display: flex;
+                            height: 35px;
+                            background-color: #E52200;
+                            width: 350px;
+
+                            &:hover {
+                                background-color: #E52200ba;
+                            }
+
+                            i {
+                                width: 10%;
+                                height: auto;
+                                font-size: larger;
+                                display: inline;
+                                align-content: center;
+                                text-align: center;
+                                color: $white;
+
+                            }
+
+                            h4 {
+                                width: 100%;
+                                display: flex;
+                                color: $white;
+                                align-items: center;
+                                height: 35px;
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 31px;
+                                padding-left: 15px;
+
+                            }
+                        }
+
+                        .social-6 {
+                            position: relative;
+                            display: flex;
+                            height: 35px;
+                            background-color: #FF5247;
+                            width: 350px;
+
+                            &:hover {
+                                background-color: #FF5247ba;
+                            }
+
+                            i {
+                                width: 10%;
+                                height: auto;
+                                font-size: larger;
+                                display: inline;
+                                align-content: center;
+                                text-align: center;
+                                color: $white;
+
+                            }
+
+                            h4 {
+                                width: 100%;
+                                display: flex;
+                                color: $white;
+                                align-items: center;
+                                height: 35px;
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 31px;
+                                padding-left: 15px;
+
+                            }
+                        }
+                    }
+
+                    form {
+                        justify-content: center;
+                        width: 350px;
+                        height: 350px;
+                        overflow: hidden;
+                        align-items: center;
+                        margin: 3rem 0;
+                        border: 1px solid black;
+                        img {
+                            align-content: center;
+                            object-fit: cover;
+                            transition: 0.5s;
+                        }
+                    }
+                }
+            }
+        }
+        }
+    }

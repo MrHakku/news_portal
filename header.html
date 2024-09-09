@@ -1,5 +1,383 @@
-    <header>
-        <nav>
-             Your header content or navigation menu 
-        </nav>
-    </header>
+<header>
+    <section class="top">
+        <div class="container py-1 ">
+            <div class="row d-flex align-items-center ">
+                <div class="col-5 d-flex justify-content-start gap-4">
+                    <a href="#"><i class="bi bi-facebook fs-5"></i></a>
+                    <a href="#"><i class="bi bi-twitter fs-5"></i></a>
+                    <a href="#"><i class="bi bi-github fs-5"></i></a>
+                    <a href="#"><i class="bi bi-dribbble fs-5"></i></a>
+                    <a href="#"><i class="bi bi-youtube fs-5"></i></a>
+                </div>
+                <div class="col-7 d-flex justify-content-end gap-3 align-items-center ">
+                    <div class=" d-flex gap-1 align-items-center ">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <span class="f-eb">1826 Locust Street, Bainbridge</span>
+                    </div>
+                    <div class=" d-flex gap-1 align-items-center ">
+                        <i class="bi bi-envelope"></i>
+                        <span class="f-eb">support@templaza.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mid">
+        <div class="container">
+            <div class="d-flex justify-content-between py-2">
+                <div>
+                    <h1 class="text-uppercase f-dm">NewsPaper</h1>
+                </div>
+                <div class="ml-auto d-flex justify-content-end align-items-center gap-4">
+                    <div class="lang d-flex gap-2">
+                        <h5> EN</h5>
+                        <h5> AR</h5>
+                    </div>
+                    <i class="bi bi-search"></i>
+                    <nav class="navbar " onclick="slide()">
+                        <div class="container">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-start" tabIndex={-1} id="offcanvasNavbar"
+                                aria-labelledby="offcanvasNavbarLabel">
+                                <div class="offcanvas-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close" />
+                                </div>
+                                <div class="offcanvas-body">
+                                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Latest Posts</h5>
+                                    <div class="box">
+                                        <div class="box-img">
+                                            <img src="https://newspaper.jollyany.co/images/magazine-sports/noah-buscher-jyQChhw-WbI-unsplash.jpg#joomlaImage://local-images/magazine-sports/noah-buscher-jyQChhw-WbI-unsplash.jpg?width=1920&height=1280"
+                                                alt />
+                                        </div>
+                                        <h6 class="f-bs">An Olympic Impact on Sports Tourism</h6>
+                                        <p class="f-eb">23 October 2021 - by Victoria Anderson</p>
+                                    </div>
+                                    <div class="box">
+                                        <div class="box-img">
+                                            <img src="https://newspaper.jollyany.co/images/felix-rostig-UmV2wr-Vbq8-unsplash.jpg#joomlaImage://local-images/felix-rostig-UmV2wr-Vbq8-unsplash.jpg?width=1920&height=1280"
+                                                alt />
+                                        </div>
+                                        <h6 class="f-bs">We are a Full-Time Travel Family. How?</h6>
+                                        <p class="f-eb">22 October 2021 - by Victoria Anderson</p>
+                                    </div>
+                                    <div class="box">
+                                        <div class="box-img">
+                                            <img src="https://newspaper.jollyany.co/images/daniela-cuevas-t7YycgAoVSw-unsplash.jpg#joomlaImage://local-images/daniela-cuevas-t7YycgAoVSw-unsplash.jpg?width=1920&height=1280"
+                                                alt />
+                                        </div>
+                                        <h6 class="f-bs">How To Work-From-Home While Also Traveling</h6>
+                                        <p class="f-eb">22 October 2021 - by Victoria Anderson</p>
+                                    </div>
+                                    <div class="box">
+                                        <div class="box-img">
+                                            <img src="https://newspaper.jollyany.co/images/ian-schneider-jk8rarn6lmw-unsplash.jpg#joomlaImage://local-images/ian-schneider-jk8rarn6lmw-unsplash.jpg?width=1920&height=1282"
+                                                alt />
+                                        </div>
+                                        <h6 class="f-bs">How to Get the Most Out of Your Dry Shampoo</h6>
+                                        <p class="f-eb">22 October 2021 - by Victoria Anderson</p>
+                                    </div>
+                                    <div class="box">
+                                        <div class="box-img">
+                                            <img src="https://newspaper.jollyany.co/images/mike-von-TPUGbQmyVwE-unsplash.jpg#joomlaImage://local-images/mike-von-TPUGbQmyVwE-unsplash.jpg?width=1920&height=1280"
+                                                alt />
+                                        </div>
+                                        <h6 class="f-bs">Why It's Normal for Your Weight to Fluctuate from Day to
+                                            Day</h6>
+                                        <p class="f-eb">22 October 2021 - by Victoria Anderson</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="mid-scroll d-none">
+        <div class="container">
+            <div class="row py-3">
+                <div class="col-3">
+                    <h1 class="text-uppercase f-dm">NewsPaper</h1>
+                </div>
+                <div class="col-8">
+                    <nav class="navbar navbar-expand-lg ">
+                        <div class="container">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown ">
+                                        <a class="nav-link   text-uppercase" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Home
+                                        </a>
+                                        <ul class="dropdown-menu ">
+                                            <li><a class="dropdown-item" href="#">Home Version 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Home Version 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown ">
+                                        <a class="nav-link   text-uppercase" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Travel
+                                        </a>
+                                        <ul class="dropdown-menu travel ">
+                                            <li>
+                                                <img src="https://newspaper.jollyany.co/images/s-migaj-Yui5vfKHuzs-unsplash.jpg#joomlaImage://local-images/s-migaj-Yui5vfKHuzs-unsplash.jpg?width=1920&height=1212"
+                                                    alt />
+                                                <h5>5 Things We Know About Flying This Summer</h5>
+                                                <p>22 October 2021 - by Victoria Anderson</p>
+                                            </li>
+                                            <li>
+                                                <img src="https://newspaper.jollyany.co/images/holly-mandarich-UVyOfX3v0Ls-unsplash.jpg#joomlaImage://local-images/holly-mandarich-UVyOfX3v0Ls-unsplash.jpg?width=1920&height=1276"
+                                                    alt />
+                                                <h5>Some reasons you should learn the local language before your trip
+                                                </h5>
+                                                <p>22 October 2021 - by Victoria Anderson</p>
+                                            </li>
+                                            <li><img src="https://newspaper.jollyany.co/images/valeria-andersson-0IGhARplNzY-unsplash.jpg#joomlaImage://local-images/valeria-andersson-0IGhARplNzY-unsplash.jpg?width=1920&height=1280"
+                                                    alt />
+                                                <h5>Why I hope this pandemic changes our attitude towards travel</h5>
+                                                <p>22 October 2021 - by Victoria Anderson</p>
+                                            </li>
+                                            <li>
+                                                <img src="https://newspaper.jollyany.co/images/garrett-parker-DlkF4-dbCOU-unsplash.jpg#joomlaImage://local-images/garrett-parker-DlkF4-dbCOU-unsplash.jpg?width=1920&height=1280"
+                                                    alt />
+                                                <h5>3 places to visit in Idaho for educational experiences</h5>
+                                                <p>22 October 2021 - by Victoria Anderson</p>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown ">
+                                        <a class="nav-link  text-uppercase" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Lifestyle
+                                        </a>
+                                        <ul class="dropdown-menu ">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown ">
+                                        <a class="nav-link   text-uppercase" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Fashion
+                                        </a>
+                                        <ul class="dropdown-menu  ">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown ">
+                                        <a class="nav-link  text-uppercase" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Sport
+                                        </a>
+                                        <ul class="dropdown-menu  ">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown ">
+                                        <a class="nav-link  text-uppercase" id="navbarDropdownMenuLink" href="#"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Food
+                                        </a>
+                                        <ul class="dropdown-menu  ">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-1">
+                    <nav class="navbar " onclick="slide()">
+                        <div class="container">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-start" tabIndex={-1} id="offcanvasNavbar"
+                                aria-labelledby="offcanvasNavbarLabel">
+                                <div class="offcanvas-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close" />
+                                </div>
+                                <div class="offcanvas-body">
+                                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Latest Posts</h5>
+                                    <div class="box">
+                                        <div class="box-img">
+                                            <img src="https://newspaper.jollyany.co/images/magazine-sports/noah-buscher-jyQChhw-WbI-unsplash.jpg#joomlaImage://local-images/magazine-sports/noah-buscher-jyQChhw-WbI-unsplash.jpg?width=1920&height=1280"
+                                                alt />
+                                        </div>
+                                        <h6 class="f-bs">An Olympic Impact on Sports Tourism</h6>
+                                        <p class="f-eb">23 October 2021 - by Victoria Anderson</p>
+                                    </div>
+                                    <div class="box">
+                                        <div class="box-img">
+                                            <img src="https://newspaper.jollyany.co/images/felix-rostig-UmV2wr-Vbq8-unsplash.jpg#joomlaImage://local-images/felix-rostig-UmV2wr-Vbq8-unsplash.jpg?width=1920&height=1280"
+                                                alt />
+                                        </div>
+                                        <h6 class="f-bs">We are a Full-Time Travel Family. How?</h6>
+                                        <p class="f-eb">22 October 2021 - by Victoria Anderson</p>
+                                    </div>
+                                    <div class="box">
+                                        <div class="box-img">
+                                            <img src="https://newspaper.jollyany.co/images/daniela-cuevas-t7YycgAoVSw-unsplash.jpg#joomlaImage://local-images/daniela-cuevas-t7YycgAoVSw-unsplash.jpg?width=1920&height=1280"
+                                                alt />
+                                        </div>
+                                        <h6 class="f-bs">How To Work-From-Home While Also Traveling</h6>
+                                        <p class="f-eb">22 October 2021 - by Victoria Anderson</p>
+                                    </div>
+                                    <div class="box">
+                                        <div class="box-img">
+                                            <img src="https://newspaper.jollyany.co/images/ian-schneider-jk8rarn6lmw-unsplash.jpg#joomlaImage://local-images/ian-schneider-jk8rarn6lmw-unsplash.jpg?width=1920&height=1282"
+                                                alt />
+                                        </div>
+                                        <h6 class="f-bs">How to Get the Most Out of Your Dry Shampoo</h6>
+                                        <p class="f-eb">22 October 2021 - by Victoria Anderson</p>
+                                    </div>
+                                    <div class="box">
+                                        <div class="box-img">
+                                            <img src="https://newspaper.jollyany.co/images/mike-von-TPUGbQmyVwE-unsplash.jpg#joomlaImage://local-images/mike-von-TPUGbQmyVwE-unsplash.jpg?width=1920&height=1280"
+                                                alt />
+                                        </div>
+                                        <h6 class="f-bs">Why It's Normal for Your Weight to Fluctuate from Day
+                                            to
+                                            Day</h6>
+                                        <p class="f-eb">22 October 2021 - by Victoria Anderson</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="line-bold"></div>
+    <section class="bottom">
+        <div class="container navbar-main">
+            <nav class="navbar navbar-expand-lg ">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link  text-uppercase" onhover="active()" href="ind" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Home
+                            </a>
+                            <ul class="dropdown-menu ">
+                                <li><a class="dropdown-item" href="#">Home Version 1</a></li>
+                                <li><a class="dropdown-item" href="#">Home Version 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link  text-uppercase" onhover="active()" href="travel.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Travel
+                            </a>
+                            <ul class="dropdown-menu travel">
+                                <li>
+                                    <img src="https://newspaper.jollyany.co/images/s-migaj-Yui5vfKHuzs-unsplash.jpg#joomlaImage://local-images/s-migaj-Yui5vfKHuzs-unsplash.jpg?width=1920&height=1212"
+                                        alt />
+                                    <h5>5 Things We Know About Flying This Summer</h5>
+                                    <div class="date"> 22 October 2021 - by Victoria Anderson</div>
+                                </li>
+                                <li>
+                                    <img src="https://newspaper.jollyany.co/images/holly-mandarich-UVyOfX3v0Ls-unsplash.jpg#joomlaImage://local-images/holly-mandarich-UVyOfX3v0Ls-unsplash.jpg?width=1920&height=1276"
+                                        alt />
+                                    <h5>Some reasons you should learn the local language before your trip
+                                    </h5>
+                                    <div class="date"> 22 October 2021 - by Victoria Anderson</div>
+                                </li>
+                                <li><img src="https://newspaper.jollyany.co/images/valeria-andersson-0IGhARplNzY-unsplash.jpg#joomlaImage://local-images/valeria-andersson-0IGhARplNzY-unsplash.jpg?width=1920&height=1280"
+                                        alt />
+                                    <h5>Why I hope this pandemic changes our attitude towards travel</h5>
+                                    <div class="date"> 22 October 2021 - by Victoria Anderson</div>
+                                </li>
+                                <li>
+                                    <img src="https://newspaper.jollyany.co/images/garrett-parker-DlkF4-dbCOU-unsplash.jpg#joomlaImage://local-images/garrett-parker-DlkF4-dbCOU-unsplash.jpg?width=1920&height=1280"
+                                        alt />
+                                    <h5>3 places to visit in Idaho for educational experiences</h5>
+                                    <div class="date"> 22 October 2021 - by Victoria Anderson</div>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link text-uppercase" onhover="active()" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Lifestyle
+                            </a>
+                            <ul class="dropdown-menu ">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link  text-uppercase" onhover="active()" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Fashion
+                            </a>
+                            <ul class="dropdown-menu  ">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link text-uppercase" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Sport
+                            </a>
+                            <ul class="dropdown-menu  ">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link text-uppercase" id="navbarDropdownMenuLink" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Food
+                            </a>
+                            <ul class="dropdown-menu  ">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+        <div class="line-normal">
+        </div>
+    </section>
+</header>

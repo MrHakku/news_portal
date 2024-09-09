@@ -1,0 +1,82 @@
+.travel{
+.home{
+    .container{
+        .head{
+            display:flex;
+            gap: 10px;
+            p{
+                display: inline;
+            }
+        }
+        .splide{
+            .splide__slider{
+                align-items: center;
+                .splide__track{
+                    margin: 0 35px;
+                    .splide__list{
+                        .splide__slide{
+                            .box{
+                                position: relative;
+                                height: 500px;
+                                overflow: hidden;
+                                .gradient {
+                                    background: #00000059;
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                    height: 100%;
+                                    width: 100%;
+                                }
+                    
+                                img{
+                                width: 350px;
+                                height: 500px;
+                                object-fit: cover;
+                                align-items: center;
+                                }
+                                .img-content{
+                                    position: absolute;
+                                    margin: 15px;
+                                    left: 0;
+                                    bottom: 0;
+                                    .cont-title{
+                                        color: $white;
+                                        font-weight: 600;
+                                        font-size: 28px;
+                                        line-height: 34px;
+                                        &:hover{
+                                            text-decoration: underline;
+                                        }
+                                    }
+                                    .cont-date{
+                                        color: $offwhite;
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 27px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
+.splide__pagination{
+    display: none;
+}
+.splide__arrows{
+    button{width: 50px;
+        height: 50px; 
+        background-color: transparent;
+}
+}
+.splide__arrow--prev{
+    left: -1rem;
+}
+
+.splide__arrow--next{
+    right: -1rem;
+}

@@ -1,0 +1,284 @@
+//home start
+.home {
+    width: 100%;
+    display: grid;
+    padding: 35px;
+
+    // .grid > div{border: 2px black solid }
+    .grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 15px;
+
+        .left {
+            position: relative;
+
+            img {
+                height: 560px;
+                object-fit: cover;
+            }
+
+            .gradient {
+                background: #0000006a;
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 100%;
+            }
+
+            .img-content {
+                position: absolute;
+                bottom: 25px;
+                left: 20px;
+                color: $white;
+
+                .cont-title {
+                    font-size: 32px;
+                    font-weight: 600;
+                    line-height: 38px;
+
+                    &:hover {
+                        color: $primarycolorhover;
+                    }
+                }
+
+                .cont-date {
+                    span {
+                        color: $offwhite;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 28px;
+                    }
+                }
+
+                .cont-detail {
+                    color: $offwhite;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 31px;
+                }
+            }
+        }
+
+        .mid {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            .top {
+                position: relative;
+
+                img {
+                    height: 273px;
+                    object-fit: cover;
+                }
+
+                .gradient {
+                    background: #0000006a;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    height: 100%;
+                    width: 100%;
+                }
+
+                .img-content {
+                    position: absolute;
+                    bottom: 10px;
+                    left: 20px;
+                    color: $white;
+
+                    .cont-title {
+                        font-size: 24px;
+                        font-weight: 400;
+                        line-height: 28px;
+
+                        &:hover {
+                            color: $primarycolorhover;
+                        }
+                    }
+
+                    .cont-date {
+                        span {
+                            color: $offwhite;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 27px;
+                        }
+                    }
+
+                    .cont-detail {
+                        color: $offwhite;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 31px;
+                    }
+                }
+            }
+
+            .bottom {
+                position: relative;
+
+                img {
+                    height: 273px;
+                    object-fit: cover;
+                }
+
+                .gradient {
+                    background: #0000006a;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    height: 100%;
+                    width: 100%;
+                }
+
+                .img-content {
+                    position: absolute;
+                    bottom: 10px;
+                    left: 20px;
+                    color: $white;
+
+                    .cont-title {
+                        font-size: 24px;
+                        font-weight: 400;
+                        line-height: 28px;
+
+                        &:hover {
+                            color: $primarycolorhover;
+                        }
+                    }
+
+                    .cont-date {
+                        span {
+                            color: $offwhite;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 27px;
+                        }
+                    }
+
+                    .cont-detail {
+                        color: $offwhite;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 31px;
+                    }
+                }
+            }
+        }
+
+        .right {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            .top {
+                position: relative;
+
+                img {
+                    height: 273px;
+                    object-fit: cover;
+                }
+
+                .gradient {
+                    background: #0000006a;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    height: 100%;
+                    width: 100%;
+                }
+
+                .img-content {
+                    position: absolute;
+                    bottom: 10px;
+                    left: 20px;
+                    color: $white;
+
+                    .cont-title {
+                        font-size: 24px;
+                        font-weight: 400;
+                        line-height: 28px;
+
+                        &:hover {
+                            color: $primarycolorhover;
+                        }
+                    }
+
+                    .cont-date {
+                        span {
+                            color: $offwhite;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 27px;
+                        }
+                    }
+
+                    .cont-detail {
+                        color: $offwhite;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 31px;
+                    }
+                }
+            }
+        }
+
+        .bottom {
+            position: relative;
+
+            img {
+                height: 273px;
+                object-fit: cover;
+            }
+
+            .gradient {
+                background: #0000006a;
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 100%;
+            }
+
+            .img-content {
+                position: absolute;
+                bottom: 10px;
+                left: 20px;
+                color: $white;
+
+                .cont-title {
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 28px;
+
+                    &:hover {
+                        color: $primarycolorhover;
+                    }
+                }
+
+                .cont-date {
+                    span {
+                        color: $offwhite;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 27px;
+                    }
+                }
+
+                .cont-detail {
+                    color: $offwhite;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 31px;
+                }
+            }
+        }
+    }
+
+}
+//home end

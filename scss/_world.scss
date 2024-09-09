@@ -1,0 +1,147 @@
+
+ //world start
+ .world {
+    padding: 35px 0;
+
+    .container {
+        h1 {
+            padding-bottom: 15px;
+            display: flex;
+            align-items: center;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 39px;
+
+            .line {
+                margin-left: 15px;
+                border: 2px solid $primarycolor;
+                height: 2px;
+                width: 85%;
+            }
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 0.025fr 1fr 0.025fr 1fr;
+            gap: 25px;
+
+            .left {
+                padding-top: 25px;
+
+                img {
+                    height: 270px;
+                    object-fit: cover;
+                }
+
+                .img-content {
+                    padding-top: 10px;
+                    color: $primarycolor;
+
+                    .cont-title {
+                        font-size: 24px;
+                        font-weight: 600;
+                        line-height: 32px;
+
+                        &:hover {
+                            color: $primarycolorhover;
+                            text-decoration: underline;
+                        }
+                    }
+
+                    .cont-date {
+                        padding-bottom: 5px;
+                        color: $secondarycolor;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 27px;
+                    }
+
+                    .cont-detail {
+                        color: $textcolor;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 31px;
+                    }
+                }
+            }
+
+            .mid {
+                .box {
+                    display: flex;
+                    gap: 15px;
+                    padding: 20px 0;
+                    align-items: center;
+
+                    img {
+                        width: 35%;
+                        object-fit: cover;
+                    }
+
+                    .img-content {
+                        width: 65%;
+
+                        .cont-title {
+                            font-size: 18px;
+                            font-weight: 600;
+                            line-height: 24px;
+                            color: $primarycolor;
+
+                            &:hover {
+                                color: $primarycolorhover;
+                                text-decoration: underline;
+                            }
+                        }
+
+                        .cont-date {
+                            padding-top: 15px;
+                            color: $secondarycolor;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 27px;
+                        }
+                    }
+                }
+            }
+
+            .right {
+                .box {
+                    display: flex;
+                    gap: 15px;
+                    padding: 20px 0;
+                    align-items: center;
+
+                    img {
+                        width: 35%;
+                        object-fit: cover;
+                    }
+
+                    .img-content {
+                        width: 65%;
+
+                        .cont-title {
+                            font-size: 18px;
+                            font-weight: 600;
+                            line-height: 24px;
+                            color: $primarycolor;
+
+                            &:hover {
+                                color: $primarycolorhover;
+                                text-decoration: underline;
+                            }
+                        }
+
+                        .cont-date {
+                            padding-top: 15px;
+                            color: $secondarycolor;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 27px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//world end

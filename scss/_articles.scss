@@ -1,0 +1,313 @@
+//articles start
+.articles {
+    width: 100%;
+    padding: 35px;
+
+    .container {
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+
+            .left {
+                h1 {
+                    padding-bottom: 15px;
+                    display: flex;
+                    align-items: center;
+                    font-size: 32px;
+                    font-weight: 600;
+                    line-height: 39px;
+
+                    .line {
+                        margin-left: 15px;
+                        border: 2px solid $primarycolor;
+                        height: 2px;
+                        width: 75%;
+                    }
+                }
+
+                .top {
+                    img {
+                        height: 270px;
+                        object-fit: cover;
+                    }
+
+                    .img-content {
+                        padding-top: 10px;
+                        color: $primarycolor;
+
+                        .cont-title {
+                            font-size: 24px;
+                            font-weight: 600;
+                            line-height: 32px;
+
+                            &:hover {
+                                color: $primarycolorhover;
+                                text-decoration: underline;
+                            }
+                        }
+
+                        .cont-date {
+                            padding-bottom: 5px;
+                            color: $secondarycolor;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 27px;
+                        }
+
+                        .cont-detail {
+                            color: $textcolor;
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 31px;
+                        }
+                    }
+                }
+
+                .bottom {
+                    .box {
+                        display: flex;
+                        gap: 15px;
+                        padding: 20px 0;
+                        align-items: center;
+
+                        img {
+                            width: 35%;
+                            object-fit: cover;
+                        }
+
+                        .img-content {
+                            width: 65%;
+
+                            .cont-title {
+                                font-size: 18px;
+                                font-weight: 600;
+                                line-height: 24px;
+                                color: $primarycolor;
+
+                                &:hover {
+                                    color: $primarycolorhover;
+                                    text-decoration: underline;
+                                }
+                            }
+
+                            .cont-date {
+                                padding-top: 15px;
+                                color: $secondarycolor;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 27px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .mid {
+                h1 {
+                    padding-bottom: 15px;
+                    display: flex;
+                    align-items: center;
+                    font-size: 32px;
+                    font-weight: 600;
+                    line-height: 39px;
+
+                    .line {
+                        margin-left: 15px;
+                        border: 2px solid $primarycolor;
+                        height: 2px;
+                        width: 63%;
+                    }
+                }
+
+                .top {
+                    img {
+                        height: 270px;
+                        object-fit: cover;
+                    }
+
+                    .img-content {
+                        padding-top: 10px;
+                        color: $primarycolor;
+
+                        .cont-title {
+                            font-size: 24px;
+                            font-weight: 600;
+                            line-height: 32px;
+
+                            &:hover {
+                                color: $primarycolorhover;
+                                text-decoration: underline;
+                            }
+                        }
+
+                        .cont-date {
+                            padding-top: 5px;
+                            padding-bottom: 5px;
+                            color: $secondarycolor;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 27px;
+                        }
+
+                        .cont-detail {
+                            color: $primarycolor;
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 31px;
+                        }
+                    }
+                }
+
+                .bottom {
+                    .box {
+                        display: flex;
+                        gap: 15px;
+                        padding: 20px 0;
+                        align-items: center;
+
+                        img {
+                            width: 35%;
+                            object-fit: cover;
+                        }
+
+                        .img-content {
+                            width: 65%;
+
+                            .cont-title {
+                                font-size: 18px;
+                                font-weight: 600;
+                                line-height: 24px;
+                                color: $primarycolor;
+
+                                &:hover {
+                                    color: $primarycolorhover;
+                                    text-decoration: underline;
+                                }
+                            }
+
+                            .cont-date {
+                                padding-top: 15px;
+                                color: $secondarycolor;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 27px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .right {
+                h1 {
+                    padding-bottom: 15px;
+                    display: flex;
+                    align-items: center;
+                    font-size: 32px;
+                    font-weight: 600;
+                    line-height: 39px;
+
+                    .line {
+                        margin-left: 15px;
+                        border: 2px solid $primarycolor;
+                        height: 2px;
+                        width: 75%;
+                    }
+                }
+
+                .top {
+                    img {
+                        height: 270px;
+                        object-fit: cover;
+                    }
+
+                    .img-content {
+                        padding-top: 10px;
+                        color: $primarycolor;
+
+                        .cont-title {
+                            font-size: 24px;
+                            font-weight: 600;
+                            line-height: 32px;
+
+                            &:hover {
+                                color: $primarycolorhover;
+                                text-decoration: underline;
+                            }
+                        }
+
+                        .cont-date {
+                            padding-top: 5px;
+                            padding-bottom: 5px;
+                            color: $secondarycolor;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 27px;
+                        }
+
+                        .cont-detail {
+                            color: $primarycolor;
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 31px;
+                        }
+                    }
+                }
+
+                .bottom {
+                    .box {
+                        display: flex;
+                        gap: 15px;
+                        padding: 20px 0;
+                        align-items: center;
+
+                        img {
+                            width: 35%;
+                            object-fit: cover;
+                        }
+
+                        .img-content {
+                            width: 65%;
+
+                            .cont-title {
+                                font-size: 18px;
+                                font-weight: 600;
+                                line-height: 24px;
+                                color: $primarycolor;
+
+                                &:hover {
+                                    color: $primarycolorhover;
+                                    text-decoration: underline;
+                                }
+                            }
+
+                            .cont-date {
+                                padding-top: 15px;
+                                color: $secondarycolor;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 27px;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .banner {
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+            margin-left: auto;
+            margin-right: auto;
+
+            img {
+                width: 80%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+//articles end

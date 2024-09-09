@@ -13,5 +13,16 @@ function loadHTML(file, elementId) {
       .catch(error => console.error('Error loading content:', error));
   }
   loadHTML('header.html', 'header');
+  loadHTML('main.html', 'main');
   loadHTML('footer.html', 'footer');
-  // Load header and foote
+  
+  // Load header and footer
+  window.addEventListener('scroll', function () {
+    var a = scrollY
+    if (a > 100) {
+        document.querySelector('.mid-scroll').classList.remove('d-none')
+    }
+    else {
+        document.querySelector('.mid-scroll').classList.add('d-none')
+    }
+})

@@ -1,0 +1,71 @@
+//mostpopular start
+.most-popular {
+    &:hover{
+        h1{
+            .line{
+        border: 2px solid $primarycolor;
+    }
+}
+}
+    h1 {
+        padding-bottom: 15px;
+        display: flex;
+        align-items: center;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 39px;
+        .line {
+            margin-left: 15px;
+            border: 2px solid $textcolor;
+            height: 2px;
+            width: 40%;
+           
+        }
+        
+    }
+    
+
+    .box {
+        display: grid;
+        grid-template-columns: 1.5fr 3fr;
+        gap: 25px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        align-items: center;
+        width: 100%;
+       
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .img-content {
+            padding-top: 10px;
+            color: $primarycolor;
+
+            .cont-title {
+                padding-top: 10px;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 24px;
+
+                &:hover {
+                    color: $primarycolorhover;
+                    text-decoration: underline;
+                }
+            }
+
+            .cont-date {
+                padding-bottom: 5px;
+                color: $secondarycolor;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 27px;
+            }
+        }
+    }
+}
+
+//mostpopular end

@@ -1,0 +1,487 @@
+ //footer start
+ footer {
+    background-color: #25252A;
+
+    .top {
+        .grid {
+            display: grid;
+            grid-template-columns: 2.5fr 1fr 1fr 1fr 1fr;
+            padding-top: 75px;
+            padding-bottom: 75px;
+            gap: 35px;
+
+            .newspaper {
+                h1 {
+                    padding-bottom: 15px;
+                    display: flex;
+                    align-items: center;
+                    font-size: 36px;
+                    font-weight: 400;
+                    line-height: 47px;
+                    color: $white;
+
+                    .line {
+                        margin-left: 15px;
+                        border: 2px solid $white;
+                        height: 2px;
+                        width: 55%;
+                    }
+                }
+
+                .detail {
+                    padding-top: 10px;
+                    color: $textcolor;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 31px;
+
+                }
+
+                .email {
+                    display: grid;
+                    grid-template-columns: 3fr 1fr;
+
+                    input {
+                        background: #fff;
+                        color: $secondarycolorsoft;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 27px;
+                        border: none;
+                        width: 100%;
+                        height: 55px;
+                        padding-left: 25px;
+                        align-items: center;
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+
+                    }
+
+                    .subscribe {
+                        text-align: center;
+                        align-self: center;
+                        line-height: 55px;
+                        color: $white;
+                        background-color: $primarycolorhover;
+                        font-size: 16px;
+                        font-weight: 400;
+                        height: 55px;
+                    }
+                }
+            }
+
+            .news {
+                h3 {
+                    padding-bottom: 15px;
+                    display: flex;
+                    align-items: center;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 22px;
+                    color: $white;
+                }
+
+                ul {
+                    text-decoration: none;
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+
+                    li {
+                        color: $secondarycolorsoft;
+                        margin-bottom: 0.5rem;
+
+                        a {
+                            color: $secondarycolorsoft;
+                            text-decoration: none;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            .lifestyle {
+                h3 {
+                    padding-bottom: 15px;
+                    display: flex;
+                    align-items: center;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 22px;
+                    color: $white;
+                }
+
+                ul {
+                    text-decoration: none;
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+
+                    li {
+                        color: $secondarycolorsoft;
+                        margin-bottom: 0.5rem;
+
+                        a {
+                            color: $secondarycolorsoft;
+                            text-decoration: none;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            .living {
+                h3 {
+                    padding-bottom: 15px;
+                    display: flex;
+                    align-items: center;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 22px;
+                    color: $white;
+                }
+
+                ul {
+                    text-decoration: none;
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+
+                    li {
+                        color: $secondarycolorsoft;
+                        margin-bottom: 0.5rem;
+
+                        a {
+                            color: $secondarycolorsoft;
+                            text-decoration: none;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            .entertainment {
+                h3 {
+                    padding-bottom: 15px;
+                    display: flex;
+                    align-items: center;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 22px;
+                    color: $white;
+                }
+
+                ul {
+                    text-decoration: none;
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+
+                    li {
+                        color: $secondarycolorsoft;
+                        margin-bottom: 0.5rem;
+
+                        a {
+                            color: $secondarycolorsoft;
+                            text-decoration: none;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    .mid {
+        padding-top: 25px;
+        padding-bottom: 45px;
+
+        h2 {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            color: $white;
+            text-align: center;
+
+            &:hover {
+                color: $primarycolorhover;
+                text-decoration: underline;
+            }
+        }
+
+        .images {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            padding: 5px;
+            gap: 0;
+
+            .image {
+
+                position: relative;
+                height: 150px;
+
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    overflow: hidden;
+                }
+
+                .hover {
+                    .gradient {
+                        background: #4b4b4b6a;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        height: 100%;
+                        width: 100%;
+                        font-size: 23px;
+                        font-weight: 600px;
+                        line-height: 32px;
+                    }
+
+                    h2 {
+                        position: absolute;
+                        left: 0%;
+                        top: 20%;
+                        height: 100%;
+                        width: 100%;
+                        align-items: center;
+                        text-decoration: none;
+                        text-align: center;
+                        font-size: 23px;
+                        font-weight: 600px;
+                        line-height: 32px;
+                        color: $white;
+                    }
+                }
+
+                .hover1 {
+                    .gradient {
+                        background: #4b4b4b6a;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        height: 100%;
+                        width: 100%;
+                        font-size: 23px;
+                        font-weight: 600px;
+                        line-height: 32px;
+                    }
+
+                    h2 {
+                        position: absolute;
+                        left: 0%;
+                        top: 20%;
+                        height: 100%;
+                        width: 100%;
+                        align-items: center;
+                        text-align: center;
+                        text-decoration: none;
+                        font-size: 23px;
+                        font-weight: 600px;
+                        line-height: 32px;
+                        color: $white;
+                    }
+                }
+
+                .hover2 {
+                    .gradient {
+                        background: #4b4b4b6a;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        height: 100%;
+                        width: 100%;
+                        font-size: 23px;
+                        font-weight: 600px;
+                        line-height: 32px;
+                    }
+
+                    h2 {
+                        position: absolute;
+                        left: 0%;
+                        top: 20%;
+                        height: 100%;
+                        width: 100%;
+                        align-items: center;
+                        text-align: center;
+                        font-size: 23px;
+                        text-decoration: none;
+                        font-weight: 600px;
+                        line-height: 32px;
+                        color: $white;
+                    }
+                }
+
+                .hover3 {
+                    .gradient {
+                        background: #4b4b4b6a;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        height: 100%;
+                        width: 100%;
+                        font-size: 23px;
+                        font-weight: 600px;
+                        line-height: 32px;
+                    }
+
+                    h2 {
+                        position: absolute;
+                        left: 0%;
+                        top: 20%;
+                        height: 100%;
+                        width: 100%;
+                        text-decoration: none;
+                        align-items: center;
+                        text-align: center;
+                        font-size: 23px;
+                        font-weight: 600px;
+                        line-height: 32px;
+                        color: $white;
+                    }
+                }
+
+                .hover4 {
+                    .gradient {
+                        background: #4b4b4b6a;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        height: 100%;
+                        width: 100%;
+                        font-size: 23px;
+                        font-weight: 600px;
+                        line-height: 32px;
+                    }
+
+                    h2 {
+                        position: absolute;
+                        left: 0%;
+                        top: 20%;
+                        height: 100%;
+                        width: 100%;
+                        text-decoration: none;
+                        align-items: center;
+                        text-align: center;
+                        font-size: 23px;
+                        font-weight: 600px;
+                        line-height: 32px;
+                        color: $white;
+                    }
+                }
+
+                .hover5 {
+                    .gradient {
+                        background: #4b4b4b6a;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        height: 100%;
+                        width: 100%;
+                        font-size: 23px;
+                        font-weight: 600px;
+                        line-height: 32px;
+                    }
+
+                    h2 {
+                        position: absolute;
+                        left: 0%;
+                        top: 20%;
+                        height: 100%;
+                        width: 100%;
+                        text-decoration: none;
+                        align-items: center;
+                        text-align: center;
+                        font-size: 23px;
+                        font-weight: 600px;
+                        line-height: 32px;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+
+    .bottom {
+        background-color: black;
+        padding: 60px 0;
+
+        .logos {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+
+            i {
+                padding: 10px 12px;
+                border-radius: 50%;
+                background-color: $secondarycolor;
+
+                &:hover {
+                    background-color: $primarycolorhover;
+                }
+            }
+        }
+
+        ul {
+            display: flex;
+            gap: 25px;
+            justify-content: center;
+            padding: 25px 0;
+
+            li {
+                text-transform: uppercase;
+
+                a {
+                    color: $white;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: $primarycolorhover;
+                    }
+                }
+            }
+        }
+
+        .copyright {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 14px;
+            color: $secondarycolorsoft;
+            text-align: center;
+
+            span {
+                color: $white;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 14px;
+
+                &:hover {
+                    color: $primarycolorhover;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+//footer end

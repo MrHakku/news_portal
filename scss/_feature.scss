@@ -1,0 +1,289 @@
+//featured start
+.feature {
+    padding: 35px 0;
+
+    .container {
+        .grid {
+            display: grid;
+            grid-template-columns: 2.5fr 1.25fr;
+            gap: 25px;
+
+            .left {
+                h1 {
+                    padding-bottom: 15px;
+                    display: flex;
+                    align-items: center;
+                    font-size: 32px;
+                    font-weight: 600;
+                    line-height: 39px;
+
+                    .line {
+                        margin-left: 15px;
+                        border: 2px solid $primarycolor;
+                        height: 2px;
+                        width: 70%;
+                    }
+                }
+
+                .grid {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 35px;
+
+                    .left {
+
+
+                        .top {
+                            padding-top: 25px;
+
+                            img {
+                                height: 270px;
+                                object-fit: cover;
+                            }
+
+                            .img-content {
+                                padding-top: 10px;
+                                color: $primarycolor;
+
+                                .cont-title {
+                                    padding-top: 10px;
+                                    font-size: 24px;
+                                    font-weight: 600;
+                                    line-height: 32px;
+
+                                    &:hover {
+                                        color: $primarycolorhover;
+                                        text-decoration: underline;
+                                    }
+                                }
+
+                                .cont-date {
+                                    padding-bottom: 5px;
+                                    color: $secondarycolor;
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    line-height: 27px;
+                                }
+
+                                .cont-detail {
+                                    padding-top: 10px;
+                                    color: $textcolor;
+                                    font-size: 18px;
+                                    font-weight: 400;
+                                    line-height: 31px;
+
+                                }
+                            }
+                        }
+
+                        .bottom {
+                            padding-top: 15px;
+
+                            .box {
+                                display: flex;
+                                gap: 15px;
+                                padding: 20px 0;
+                                align-items: center;
+
+                                img {
+                                    width: 35%;
+                                    object-fit: cover;
+                                }
+
+                                .img-content {
+                                    width: 65%;
+
+                                    .cont-title {
+                                        font-size: 18px;
+                                        font-weight: 600;
+                                        line-height: 24px;
+                                        color: $primarycolor;
+
+                                        &:hover {
+                                            color: $primarycolorhover;
+                                            text-decoration: underline;
+                                        }
+                                    }
+
+                                    .cont-date {
+                                        padding-top: 15px;
+                                        color: $secondarycolor;
+                                        font-size: 16px;
+                                        font-weight: 400;
+                                        line-height: 27px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .right {
+                        h1 {
+                            padding-bottom: 15px;
+                            display: flex;
+                            align-items: center;
+                            font-size: 32px;
+                            font-weight: 600;
+                            line-height: 39px;
+
+                            .line {
+                                margin-left: 15px;
+                                border: 2px solid $primarycolor;
+                                height: 2px;
+                                width: 75%;
+                            }
+                        }
+
+                        .top {
+                            padding-top: 25px;
+
+                            img {
+                                height: 270px;
+                                object-fit: cover;
+                            }
+
+                            .img-content {
+                                padding-top: 10px;
+                                color: $primarycolor;
+
+                                .cont-title {
+                                    padding-top: 10px;
+                                    font-size: 24px;
+                                    font-weight: 600;
+                                    line-height: 32px;
+
+                                    &:hover {
+                                        color: $primarycolorhover;
+                                        text-decoration: underline;
+                                    }
+                                }
+
+                                .cont-date {
+                                    padding-bottom: 5px;
+                                    color: $secondarycolor;
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    line-height: 27px;
+                                }
+
+                                .cont-detail {
+                                    padding-top: 10px;
+                                    color: $textcolor;
+                                    font-size: 18px;
+                                    font-weight: 400;
+                                    line-height: 31px;
+                                }
+                            }
+                        }
+
+                        .bottom {
+                            padding-top: 15px;
+
+                            .box {
+                                display: flex;
+                                gap: 15px;
+                                padding: 20px 0;
+                                align-items: center;
+
+                                img {
+                                    width: 35%;
+                                    object-fit: cover;
+                                }
+
+                                .img-content {
+                                    width: 65%;
+
+                                    .cont-title {
+                                        font-size: 18px;
+                                        font-weight: 600;
+                                        line-height: 24px;
+                                        color: $primarycolor;
+
+                                        &:hover {
+                                            color: $primarycolorhover;
+                                            text-decoration: underline;
+                                        }
+                                    }
+
+                                    .cont-date {
+                                        padding-top: 15px;
+                                        color: $secondarycolor;
+                                        font-size: 16px;
+                                        font-weight: 400;
+                                        line-height: 27px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+
+            .right {
+                h1 {
+                    padding-bottom: 25px;
+                    display: flex;
+                    align-items: center;
+                    font-size: 32px;
+                    font-weight: 600;
+                    line-height: 39px;
+
+                    .line {
+                        margin-left: 15px;
+                        border: 2px solid $primarycolor;
+                        height: 2px;
+                        width: 50%;
+                    }
+                }
+
+                .box {
+                    display: flex;
+                    gap: 15px;
+                    padding: 15px 0;
+                    align-items: center;
+
+                    img {
+                        width: 35%;
+                        height: 125px;
+                        object-fit: cover;
+                    }
+
+                    .img-content {
+                        width: 65%;
+
+                        .cont-title {
+                            font-size: 18px;
+                            font-weight: 600;
+                            line-height: 24px;
+                            color: $primarycolor;
+
+                            &:hover {
+                                color: $primarycolorhover;
+                                text-decoration: underline;
+                            }
+                        }
+
+                        .cont-date {
+                            padding-top: 15px;
+                            color: $secondarycolor;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 27px;
+                        }
+                    }
+                }
+
+                .banner {
+                    img {
+                        width: 300px;
+                        height: 220px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+//featured end
