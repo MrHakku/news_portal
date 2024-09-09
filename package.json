@@ -1,0 +1,16 @@
+{
+  "name": "news_website",
+  "version": "1.0.0",
+  "description": "This is my news website",
+  "main": "script.js",
+  "scripts": {
+    "sass": "sass --watch scss/style.scss css/style.css",
+    "serve": "live-server --port=8080"
+  },
+  "author": "Sangit Shrestha",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.78.0"
+  }
+}
