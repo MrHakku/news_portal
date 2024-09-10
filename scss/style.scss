@@ -7,6 +7,48 @@ $secondarycolorhover: #4EA1FF;
 $white: #FFFFFF;
 $offwhite: rgba(255, 255, 255, 0.5);
 $bgcolor: #F5F5F5;
+//Fonts start
+.f-eb {
+    font-family: "EB Garamond", serif;
+    font-style: normal;
+}
+
+.f-dm {
+    font-family: "DM Serif Text", serif;
+    font-style: normal;
+}
+
+.f-bs {
+    font-family: "Big Shoulders Text", sans-serif;
+    font-style: normal;
+}
+
+.f-os {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+
+//Fonts end
+//line start
+.line-bold {
+    border: $primarycolor 3px solid;
+}
+
+.line-semi-bold {
+    border: $secondarycolorsoft 2px solid;
+}
+
+.line-normal {
+    border: $secondarycolorsoft 1px solid;
+}
+
+.line-vr-normal {
+    border: $secondarycolorsoft 1px solid;
+    height: 100%;
+    width: 1px;
+}
+
+//line end
 
 @import 'common';
 @import 'header';

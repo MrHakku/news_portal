@@ -1,273 +1,339 @@
 //Header Start
 header {
-    background-color: $bgcolor;
+  background-color: $bgcolor;
 
-    .top {
-        padding: 5px 0;
+  .top {
+    padding: 5px 0;
 
-        .container {
+    .container {
+      .row {
+        .col-5 {
+          a {
+            text-decoration: none;
+            color: $secondarycolor;
 
-            .row {
-                .col-5 {
-                    a {
-                        text-decoration: none;
-                        color: $secondarycolor;
-
-                        &:hover {
-                            color: $secondarycolorhover;
-                        }
-                    }
-                }
-
-                .col-7 {
-                    span {
-                        font-size: 13px;
-                        font-weight: 200;
-
-                        // font-family: "EB Garamond", serif;
-                        &:hover {
-                            color: $primarycolorhover;
-                            text-decoration: underline;
-                        }
-                    }
-                }
+            &:hover {
+              color: $secondarycolorhover;
             }
+          }
         }
+
+        .col-7 {
+          span {
+            font-size: 13px;
+            font-weight: 200;
+
+            // font-family: "EB Garamond", serif;
+            &:hover {
+              color: $primarycolorhover;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
     }
+  }
 
-    .mid {
-        background-color: $white;
-        padding: 13px 0;
+  .mid {
+    background-color: $white;
+    padding: 13px 0;
 
-        
-            .row {                
-                    h1 {
-                        display: inline !important;
-                        font-size: 54px;
-                        font-weight: 400;
+    .row {
+      h1 {
+        display: inline !important;
+        font-size: 54px;
+        font-weight: 400;
+      }
+
+      .lang {
+        h5 {
+          font-size: 20px;
+          font-weight: 400;
+
+          &:hover {
+            color: $primarycolorhover;
+          }
+        }
+      }
+
+      .navbar {
+        .container {
+          .offcanvas {
+            transition: 0.6s;
+
+            .offcanvas-body {
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              padding: 0 35px 35px 0;
+              align-items: center;
+
+              .offcanvas-title {
+                font-size: 32px;
+                font-weight: 600;
+                align-self: start;
+                padding-bottom: 15px;
+              }
+
+              .box {
+                width: 70%;
+                padding-bottom: 15px;
+
+                .box-img {
+                  overflow: hidden;
+
+                  img {
+                    width: 100%;
+                    object-fit: contain;
+                    transition: 0.5s;
+
+                    &:hover {
+                      transform: scale(120%);
                     }
+                  }
+                }
 
-                    .lang {
-                        h5 {
-                            font-size: 20px;
-                            font-weight: 400;
+                h6 {
+                  font-size: 22px;
+                  font-weight: 600;
 
+                  &:hover {
+                    color: $primarycolorhover;
+                    text-decoration: underline;
+                  }
+                }
+
+                p {
+                  font-size: 20px;
+                  font-weight: 400;
+                  color: $secondarycolor;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .mid-scroll {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    align-items: center;
+    background-color: $white;
+    width: 100%;
+    padding: 8px 0;
+
+    .container {
+      ul {
+        position: relative;
+        list-style: none;
+        gap: 35px;
+
+        .dropdown {
+          &:hover {
+            .dropdown-menu {
+              display: block;
+            }
+            .dropdown-menu.travel {
+              display: flex;
+              flex-direction: row;
+              gap: 25px;
+              padding: 5px 10px;
+              max-width: 1800px;
+              margin-top: 10px;
+              position: absolute;
+              left: -100px;
+              li {
+                max-width: 100%;
+                display: 250px;
+                flex-direction: column;
+                gap: 5px;
+                img {
+                  width: 250px;
+                  object-fit: contain;
+                }
+                h5 {
+                  font-weight: 600;
+                  font-size: 18px;
+                  line-height: 22px;
+                  &:hover {
+                    color: $primarycolorhover;
+                    text-decoration: underline;
+                  }
+                }
+                .date {
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: 27px;
+                  color: $textcolor;
+                }
+              }
+            }
+          }
+
+          .dropdown-menu {
+            display: none;
+          }
+
+          ul {
+            position: absolute;
+            left: 0px;
+            top: 50px;
+            background-color: $white;
+            color: rgb(29, 29, 29);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            text-align: start;
+
+            li {
+              width: 250px;
+
+              a {
+                h1 {
+                  color: #101828;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .bottom {
+    padding: 4px 0;
+
+    .navbar-main {
+      ul {
+        position: relative;
+        list-style: none;
+        gap: 35px;
+
+        .dropdown {
+          &:hover {
+            .dropdown-menu {
+              display: block;
+              .dropdown-item {
+                font-family: "EB Garamond", serif;
+                font-style: normal;
+              }
+            }
+            .dropdown-menu.travel {
+              display: flex;
+              flex-direction: row;
+              gap: 25px;
+              padding: 5px 10px;
+              max-width: 1800px;
+              margin-top: 10px;
+              position: absolute;
+              left: -100px;
+              li {
+                max-width: 100%;
+                display: 250px;
+                flex-direction: column;
+                gap: 5px;
+                img {
+                  width: 250px;
+                  object-fit: contain;
+                }
+                h5 {
+                  font-weight: 600;
+                  font-size: 18px;
+                  line-height: 22px;
+                  &:hover {
+                    color: $primarycolorhover !important;
+                    text-decoration: underline;
+                  }
+                }
+                .date {
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: 27px;
+                  color: $textcolor;
+                }
+              }
+            }
+            .dropdown-menu.lifestyle {
+              display: flex;
+              flex-direction: row;
+              gap: 25px;
+              padding: 5px 10px;
+              max-width: 1800px;
+              margin-top: 10px;
+              position: absolute;
+              left: -100px;
+
+              .right.splide-2 {
+                .splide__track {
+                  margin: 0 35px;
+                  .splide__list {
+                    .splide__slide {
+                      .box {
+                        overflow: hidden;
+
+                        img {
+                          width: 150px;
+                          object-fit: contain;
+                        }
+                        .img-content {
+                          margin: 15px;
+
+                          .cont-title {
+                            color: $white;
+                            font-weight: 600;
+                            font-size: 28px;
+                            line-height: 34px;
                             &:hover {
-                                color: $primarycolorhover;
+                              text-decoration: underline;
                             }
+                          }
+                          .cont-date {
+                            color: $offwhite;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 27px;
+                          }
                         }
+                      }
                     }
-
-                    .navbar {
-                        .container {
-                            .offcanvas {
-                                transition: 0.6s;
-
-                                .offcanvas-body {
-                                    display: flex;
-                                    flex-direction: column;
-                                    justify-content: space-between;
-                                    padding: 0 35px 35px 0;
-                                    align-items: center;
-
-
-                                    .offcanvas-title {
-                                        font-size: 32px;
-                                        font-weight: 600;
-                                        align-self: start;
-                                        padding-bottom: 15px;
-                                    }
-
-                                    .box {
-                                        width: 70%;
-                                        padding-bottom: 15px;
-
-                                        .box-img {
-                                            overflow: hidden;
-
-                                            img {
-                                                width: 100%;
-                                                object-fit: contain;
-                                                transition: 0.5s;
-
-                                                &:hover {
-                                                    transform: scale(120%);
-                                                }
-                                            }
-                                        }
-
-                                        h6 {
-                                            font-size: 22px;
-                                            font-weight: 600;
-
-                                            &:hover {
-                                                color: $primarycolorhover;
-                                                text-decoration: underline;
-                                            }
-                                        }
-
-                                        p {
-                                            font-size: 20px;
-                                            font-weight: 400;
-                                            color: $secondarycolor;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
+                  }
                 }
-            
-        
-    }
-
-    .mid-scroll {
-        position: fixed;
-        z-index: 9999;
-        top: 0;
-        align-items: center;
-        background-color: $white;
-        width: 100%;
-        padding: 8px 0;
-
-        .container {
-            ul {
-                position: relative;
-                list-style: none;
-                gap: 35px;
-
-                .dropdown {
-                    &:hover {
-                        .dropdown-menu {
-                            display: block;
-                        }
-                        .dropdown-menu.travel {
-                            display: flex;
-                            flex-direction: row;
-                            gap: 25px;
-                            padding: 5px 10px;
-                            margin-top: 10px;
-                            li{
-                                max-width: 200px;
-                                display: flex;
-                                flex-direction: column;
-                                gap: 5px;                            
-                            img{
-                                width: 200px;
-                                object-fit: contain;
-                            }
-                        }
-                        }
-                    }
-
-                    .dropdown-menu {
-                        display: none;
-                    }
-
-                    ul {
-                        position: absolute;
-                        left: 0px;
-                        top: 50px;
-                        background-color: $white;
-                        color: rgb(29, 29, 29);
-                        display: flex;
-                        flex-direction: column;
-                        gap: 15px;
-                        text-align: start;
-
-                        & :hover {
-                            color: $primarycolorhover;
-                        }
-
-                        li {
-                            width: 250px;
-
-                            a {
-                                h1 {
-                                    color: #101828;
-                                }
-                            }
-                        }
-
-                    }
-                }
-
+              }
             }
+          }
+
+          .dropdown-menu {
+            display: none;
+          }
         }
-    }
 
-    .bottom {
-        padding: 4px 0;
+        ul {
+          position: absolute;
+          left: 0px;
+          top: 35px;
+          background-color: $white;
+          color: rgb(29, 29, 29);
+          display: flex;
+          flex-direction: column;
+          gap: 55px;
+          text-align: start;
 
-        .navbar-main {
-            ul {
-                position: relative;
-                list-style: none;
-                gap: 35px;
+          li {
+            width: 250px;
 
-                .dropdown {
-                    &:hover {
-                        .dropdown-menu {
-                            display: block;
-                        }
-                        .dropdown-menu.travel {
-                            display: flex;
-                            flex-direction: row;
-                            gap: 25px;
-                            padding: 5px 10px;
-                            margin-top: 10px;
-                            li{
-                                max-width: 200px;
-                                display: flex;
-                                flex-direction: column;
-                                gap: 5px;                            
-                            img{
-                                width: 200px;
-                                object-fit: contain;
-                            }
-                        }
-                        }
-
-                    }
-
-                    .dropdown-menu {
-                        display: none;
-                    }
-
-                    
-                }
-
-                ul {
-                    position: absolute;
-                    left: 0px;
-                    top: 35px;
-                    background-color: $white;
-                    color: rgb(29, 29, 29);
-                    display: flex;
-                    flex-direction: column;
-                    gap: 55px;
-                    text-align: start;
-
-                    & :hover {
-                        color: $primarycolorhover;
-                    }
-
-                    li {
-                        width: 250px;
-
-                        a {
-                            h1 {
-                                color: #101828;
-                            }
-
-                        }
-                    }
-
-                }
+            a {
+              h1 {
+                color: #101828;
+              }
             }
-
+          }
         }
+      }
     }
+  }
 }
 
 //header end

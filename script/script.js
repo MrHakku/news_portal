@@ -14,7 +14,9 @@ function loadHTML(file, elementId) {
   }
   loadHTML('header.html', 'header');
   loadHTML('main.html', 'main');
+  loadHTML('travel.html', 'travel');
   loadHTML('footer.html', 'footer');
+  
   
   // Load header and footer
   window.addEventListener('scroll', function () {
@@ -26,3 +28,23 @@ function loadHTML(file, elementId) {
         document.querySelector('.mid-scroll').classList.add('d-none')
     }
 })
+//Splide
+var splide = new Splide( '.splide', {
+  type   : 'loop',
+  perPage: 4,
+  perMove: 1,
+} );
+
+splide.mount();
+var splide2 = new Splide( '.rightsplide', {
+  type   : 'loop',
+  perPage: 3,
+  perMove: 1,
+} );
+
+splide.mount();
+
+//Active
+function active(){
+  document.querySelector('.dropdown').classList.toggle('active')
+}
